@@ -12,6 +12,7 @@ cbindgen = { git="https://github.com/lu-zero/cbindgen" }
 
 [dependencies]
 libc = "0.2"
+winapi = { git = "https://github.com/retep998/winapi-rs.git", branch = "0.3" }
 
 [dependencies.rav1e]
 git = "https://github.com/xiph/rav1e"
